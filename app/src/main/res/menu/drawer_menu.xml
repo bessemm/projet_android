@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=" " >
+        <menu>
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/ic_pin_drop_black_24dp"
+                android:title="Voir sur Map" />
+            <item
+                android:id="@+id/commandes"
+                android:icon="@drawable/ic_local_shipping_black_24dp"
+                android:title="Mes commandes" />
+            <item
+                android:id="@+id/scan"
+                android:icon="@drawable/ic_qr_code"
+                android:title="Scanner" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_arrow_back_black_24dp"
+                android:title="Se deconnecter" />
+        </menu>
+    </item>
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/parmetres"
+
+                android:title="Paramètres" />
+            <item
+                android:id="@+id/another1"
+
+                android:title="FAQ" />
+        </menu>
+    </item>
+
+</menu>

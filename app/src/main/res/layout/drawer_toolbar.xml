@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bluegreen"
+        android:clickable="true"
+        android:clipChildren="false"
+        android:longClickable="true"
+        android:theme="@style/ToolBarStyle"
+        app:navigationIcon="@android:drawable/ic_menu_sort_by_size"
+
+        app:title="Cogepha"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

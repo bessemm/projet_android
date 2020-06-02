@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.testing_gps_services.MapsFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/location_frag_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginVertical="50dp"
+        android:layout_centerInParent="true"
+
+        >
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            mapbox:mapbox_cameraTargetLat="33.7931605"
+            mapbox:mapbox_cameraTargetLng="  9.5607653"
+            mapbox:mapbox_cameraZoom="6" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

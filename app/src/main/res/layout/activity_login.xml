@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.testing_gps_services.LoginActivity"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/logo"
+                android:layout_width="318dp"
+                android:layout_height="181dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@drawable/logocogepha" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="60dp"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:textAlignment="center"
+                android:layout_marginTop="0dp"
+                android:padding="10dp"
+                android:hint="Nom d'utilisateur"
+                android:id="@+id/loginText"
+                android:textColor="#000"
+
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+
+                android:inputType="textEmailAddress"
+
+                />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:id="@+id/pwdText"
+                android:textAlignment="center"
+                android:textColor="#000"
+
+                android:hint="Mot de passe"
+
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+
+                android:inputType="textPassword"
+
+                />
+
+            <Button
+                android:id="@+id/Btn_Login"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="12dp"
+                android:background="@android:color/background_light"
+                android:textColor="#8BC34A"
+                android:text="S'authentifier" />
+
+            <LinearLayout
+                android:layout_marginTop="140dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:textAlignment="center"
+                    android:text="COPYRIGHT © 2020 Mitra-Tunisie, All rights Reserved "
+                    android:textColor="@android:color/darker_gray" />
+                />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
